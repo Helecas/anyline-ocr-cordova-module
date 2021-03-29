@@ -13,6 +13,8 @@ dependencies {
 
 android {
 
+  ndkVersion '21.0.6113669'
+
   defaultConfig {
       ndk {
       abiFilters "armeabi-v7a", "arm64-v8a"
